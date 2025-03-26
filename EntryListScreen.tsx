@@ -1,5 +1,5 @@
 import React,{useState} from 'react';
-import{View,TextInput,Button,StyleSheet} from 'react-native';
+import{View,TextInput,Button} from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const handleSave = async () =>{
@@ -27,18 +27,7 @@ return(
 );
 };
 
-const styles = StyleSheet.create({
-    conteiner:{
-        flex:1,
-        padding:20,
-    },
-    input:{
-        height:200,
-        boderColor:'gray',
-        borderWidth:1,
-        marginBottom:10,
-        padding:10,
-    }
-});
 export default EntryListScreen
+
+
 
