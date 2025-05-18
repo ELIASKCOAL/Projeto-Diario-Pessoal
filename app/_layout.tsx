@@ -10,7 +10,14 @@ import { useColorScheme } from '@/hooks/useColorScheme';
 
 // Prevent the splash screen from auto-hiding before asset loading is complete.
 SplashScreen.preventAutoHideAsync();
-
+const MeuTemaEscuro = {
+  ...DarkTheme,
+  colors: {
+    ...DarkTheme.colors,
+    background: '#f0f0f0', // Defina a cor de fundo desejada para o tema escuro
+    // Adicione outras personalizações de cores conforme necessário
+  },
+}
 export default function RootLayout() {
   const colorScheme = useColorScheme();
   const [loaded] = useFonts({
@@ -28,7 +35,7 @@ export default function RootLayout() {
   }
 
   return (
-    <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
+    <ThemeProvider value={colorScheme === 'white' ? DarkTheme : DefaultTheme}>
       <Stack>
         <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
         <Stack.Screen name="+not-found" />
