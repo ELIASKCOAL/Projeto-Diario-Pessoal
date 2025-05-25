@@ -35,6 +35,4 @@ Um aplicativo de diário pessoal onde o usuário pode registrar seus pensamentos
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/diario-pessoal.git
-cd diario-pessoal
-
+git clone https://github.com/ELIASKCOAL/Projeto-Diario-Pessoal.git
