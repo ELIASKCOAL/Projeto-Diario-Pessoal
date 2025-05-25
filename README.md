@@ -1,50 +1,40 @@
-# Welcome to your Expo app 👋
+# Diário Pessoal
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Um aplicativo de diário pessoal onde o usuário pode registrar seus pensamentos e eventos do dia a dia. Desenvolvido com foco em simplicidade, privacidade e usabilidade.
 
-## Get started
+## ✨ Funcionalidades
 
-1. Install dependencies
+- Cadastro e login de usuários
+- Edição e exclusão de entradas
+- Conexão segura com backend e banco de dados
 
-   ```bash
-   npm install
-   ```
+## 🛠️ Tecnologias Utilizadas
 
-2. Start the app
+### Front-end (App Mobile)
+- [React Native](https://reactnative.dev/)
+- [Axios](https://axios-http.com/) para comunicação com a API
 
-   ```bash
-    npx expo start
-   ```
+### API
+- TypeScript
+- Node.js + Express (API intermediária)
+- Middleware de autenticação (JWT ou outro, se usar)
 
-In the output, you'll find options to open the app in a
+### Backend
+- PHP (puro, sem frameworks)
+- MySQL (gerenciado via phpMyAdmin)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## ⚙️ Como Rodar o Projeto
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### Pré-requisitos
+- Node.js
+- npm ou yarn
+- PHP >= 7.x
+- MySQL
+- Emulador Android ou dispositivo real
 
-## Get a fresh project
-
-When you're ready, run:
+### 1. Clone o repositório
 
 ```bash
-npm run reset-project
-```
+git clone https://github.com/seu-usuario/diario-pessoal.git
+cd diario-pessoal
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
