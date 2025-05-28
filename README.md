@@ -23,6 +23,7 @@ Um aplicativo de diário pessoal onde o usuário pode registrar seus pensamentos
 
 ### 🔙 Backend
 - PHP (sem frameworks)
+- JavaScript
 - MySQL (acessado via phpMyAdmin)
 - Sem autenticação com JWT — o login é verificado diretamente via PHP e retorna dados básicos do usuário
 
