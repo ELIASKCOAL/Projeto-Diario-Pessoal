@@ -1,50 +1,44 @@
-# Welcome to your Expo app 👋
+# 📘 Diário Pessoal
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Um aplicativo de diário pessoal onde o usuário pode registrar seus pensamentos e eventos do dia a dia. Desenvolvido com foco em simplicidade e usabilidade, como parte de um projeto acadêmico.
 
-## Get started
+---
 
-1. Install dependencies
+## ✨ Funcionalidades
 
-   ```bash
-   npm install
-   ```
+- Cadastro e login de usuários
+- Criação, edição e exclusão de entradas do diário
+- Comunicação com backend e banco de dados
 
-2. Start the app
+---
 
-   ```bash
-    npx expo start
-   ```
+## 🛠️ Tecnologias Utilizadas
 
-In the output, you'll find options to open the app in a
+### 📱 Front-end (App Mobile)
+- [React Native](https://reactnative.dev/)
+- [Axios](https://axios-http.com/) para requisições HTTP
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### 🌐 API Simples (Intermediária)
+- TypeScript (apenas se utilizada como ponte entre app e backend PHP)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### 🔙 Backend
+- PHP (sem frameworks)
+- JavaScript (sem frameworks)
+- MySQL (acessado via phpMyAdmin)
+- Sem autenticação com JWT — o login é verificado diretamente via PHP e retorna dados básicos do usuário
 
-## Get a fresh project
+---
 
-When you're ready, run:
+## ⚙️ Como Rodar o Projeto
+
+### Pré-requisitos
+- Node.js
+- npm ou yarn
+- PHP >= 7.x
+- MySQL (por exemplo, via Laragon, XAMPP ou WAMP)
+- Emulador Android ou dispositivo físico
+
+### 1. Clone o repositório
 
 ```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+git clone https://github.com/ELIASKCOAL/Projeto-Diario-Pessoal.git
